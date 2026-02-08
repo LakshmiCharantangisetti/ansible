@@ -1,0 +1,6 @@
+- name: print the varaible
+  hosts: frontend
+  tasks:
+  - name: echo the varaible
+    ansible.builtin.debug:
+      msg: "hello world"
